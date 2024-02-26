@@ -1,0 +1,98 @@
+.divContainer {
+
+    min-height: 162px;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.divUp {
+    height: 81px;
+    width: 84%;
+    display: flex;
+    align-items: center;
+
+}
+
+.divDown {
+    height: 81px;
+    width: 84%;
+    display: flex;
+    
+
+}
+.divHorario{
+display: flex;
+justify-content: start;
+padding-left: 20px;
+
+}
+
+.divLocacion {
+    justify-content: end;
+    height: 50px;
+    display: flex;
+    padding-right: 20px;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: row;
+    border-right: 2px solid #bbbbbb;   
+    gap: 20px;
+
+}
+
+.divHorario {
+    display: flex;
+    flex-grow: 10;
+align-items: center;
+}
+
+.divTelefono {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.divLeft{
+    flex-grow: 1;
+    width: 9%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.divMiddle{
+    flex-grow: 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+.divRight{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logoEmpresa{
+width: 40%;
+height: 100%;
+}
+
+.buttonHeader{
+    height: 50%;
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    background-color: #4762FF;
+    color: white;
+    font-weight: 400;
+}

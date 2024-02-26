@@ -1,0 +1,79 @@
+/* Terciario.module.css */
+
+.conFondo {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(71, 98, 255, 0.08); /* Color de fondo con transparencia */
+  }
+  
+  .conText {
+    position: relative;
+    width: 100%;
+    height: 51vw;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .contData {
+    width: 35vw;
+    height: 30vw;
+    background-color: white;
+    margin-right: 10vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contData button{
+    margin-top: 2vw;
+    border: none;
+    background-color: #4762ff;
+    color: white;
+    font-weight: 300;
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+  .contTitle {
+    text-align: center;
+    font-size: 3vw;
+    width: 80%;
+    margin-top: 3vw;
+  }
+  
+  .contSubtitle {
+    text-align: center;
+    font-size: 1vw;
+    width: 80%;
+    margin-top: 1vw;
+  }
+  
+  .input {
+    border-radius: 8px;
+    width: 70%;
+    margin-top: 2vw;
+    padding: 1vw;
+    border: none;
+    font-size: 1vw;
+    outline: none;
+    background-color: rgba(71, 98, 255, 0.08); /* Color de fondo con transparencia */
+    color: #979797;
+}
+  
+  /* Estilos para el placeholder */
+  .input::placeholder {
+    color: #999;
+  }
+  
+  /* Estilos adicionales para un aspecto más moderno */
+  .input:focus {
+    box-shadow: 0 0 5px rgba(71, 98, 255, 0.5); /* Sombra al estar enfocado */
+  }
+  
+  .input:hover {
+    background-color: rgba(71, 98, 255, 0.1); /* Cambio de color al pasar el cursor */
+  }
+  

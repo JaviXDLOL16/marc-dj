@@ -1,0 +1,11 @@
+.divContainer{
+width: 100%;
+height: 100vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.divContainer h2{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

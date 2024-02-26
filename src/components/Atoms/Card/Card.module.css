@@ -1,0 +1,55 @@
+.divContainer{
+    margin-top: 60px;
+width: 705px;
+height: 287px;
+background-color: #F4F6FA;
+border-radius: 5px;
+display: flex   ;
+flex-direction: row-reverse;
+ box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  
+  }
+
+  .divContainer:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in;
+  }
+.loque{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+
+.divContainer h3{
+font-size: 1.5vw;
+text-align: center;
+font-weight: bold;
+margin-left: 20px;
+margin-top: 1vw;
+margin-bottom: 0.5vw;
+}
+.divContainer p{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.divGenerado{
+
+    width: 100%;
+    text-align: justify;}
+
+.logo{
+    display: flex;
+    position: relative;
+    top: -50px;
+    left: 30px;
+    width: 250px;
+    height: auto;
+
+}
+.divImagen{
+    width: 40%;
+    
+}
